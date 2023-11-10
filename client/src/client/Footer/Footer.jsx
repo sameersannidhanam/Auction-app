@@ -7,7 +7,7 @@ const teamMembers = [
   { name: 'Hemanth', github: 'https://github.com/Hemanth' },
   { name: 'Rathna Sekhar', github: 'https://github.com/RathnaSekhar' },
   { name: 'Gowtham', github: 'https://github.com/Gowtham' },
-  { name: 'Sammer', github: 'https://github.com/Sammer' },
+  { name: 'Sameer', github: 'https://github.com/sameersannidhanam' },
 ];
 
 const Footer = () => {
