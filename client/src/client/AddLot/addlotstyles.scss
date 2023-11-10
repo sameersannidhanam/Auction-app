@@ -1,0 +1,219 @@
+.formbd {
+  width: 75%;
+  margin: 3em auto; // Adjusted margin
+}
+
+.form-elements {
+  margin-top: 3em; // Adjusted margin
+  margin-bottom: 3em; // Adjusted margin
+}
+
+.card {
+  margin-bottom: 20px; // Adjusted margin
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.card-header,
+.card-footer {
+  padding: 15px; // Adjusted padding
+  border-color: #ebeef4;
+  background-color: #fff;
+  color: #798eb3;
+}
+
+.card-title {
+  padding: 20px 0 10px 0; // Adjusted padding
+  font-size: 24px; // Adjusted font size
+  font-weight: 500;
+  color: #012970;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.card-title span {
+  font-size: 14px; // Adjusted font size
+  color: #899bbd;
+}
+
+.card-body {
+  padding: 0 20px 20px 20px;
+}
+
+.rowset {
+  margin: 0 2em; // Adjusted margin
+}
+
+.addlotcls .row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4em;
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.rowset .col-form-label {
+  margin-bottom: 0;
+  flex: 0 0 30%; // Adjusted width
+  text-align: right;
+  padding-right: 1em; // Adjusted padding
+}
+
+.rowset .col-sm-10 {
+  flex: 0 0 70%; // Adjusted width
+}
+
+.section-title {
+  margin-top: 3em; // Adjusted margin
+  margin-bottom: -1em; // Adjusted margin
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.section-title h2 {
+  font-size: 30px; // Adjusted font size
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #222222;
+  position: relative;
+}
+
+.section-title h2::before,
+.section-title h2::after {
+  content: "";
+  width: 40px; // Adjusted width
+  height: 2px; // Adjusted height
+  background: #3498db;
+  display: inline-block;
+}
+
+.section-title h2::before {
+  margin: 0 15px 10px 0;
+}
+
+.section-title h2::after {
+  margin: 0 0 10px 15px;
+}
+
+.section-title p {
+  margin: 10px 0 0 0; // Adjusted margin
+}
+
+.submitbtn {
+  text-align: center;
+  margin-top: 2em; // Adjusted margin
+}
+
+.createProductFormImage img {
+  width: 100%;
+  max-width: 16em;
+  height: auto;
+}
+
+.reset-btn {
+  margin-top: 2em; // Adjusted margin
+  text-align: center;
+}
+
+// Add any other custom styles as needed
+.formbd {
+  width: 75%;
+  margin: 3em auto;
+}
+
+.form-elements {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.card-header,
+.card-footer {
+  padding: 15px;
+}
+
+.card-title {
+  padding: 20px 0 10px 0;
+  font-size: 24px;
+}
+
+.card-title span {
+  font-size: 14px;
+}
+
+.card-body {
+  padding: 0 20px 20px 20px;
+}
+
+.rowset {
+  margin: 0 2em;
+}
+
+.addlotcls .row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+  margin-top: 3em;
+  margin-bottom: -1em;
+}
+
+.section-title h2 {
+  font-size: 30px;
+}
+
+.section-title h2::before,
+.section-title h2::after {
+  width: 40px;
+  height: 2px;
+}
+
+.section-title h2::before {
+  margin: 0 15px 10px 0;
+}
+
+.section-title h2::after {
+  margin: 0 0 10px 15px;
+}
+
+.section-title p {
+  margin: 10px 0 0 0;
+}
+
+.submitbtn {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.createProductFormImage img {
+  width: 100%;
+  max-width: 16em;
+  height: auto;
+}
+
+.reset-btn {
+  margin-top: 2em;
+  text-align: center;
+}
+
+// Add the following rule to remove the white box background
+.card {
+  background: transparent;
+}
